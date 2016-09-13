@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84BEB7B61D87A0950046FBF2 /* ProductShopCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB7B41D87A0950046FBF2 /* ProductShopCollectionViewCell.m */; };
+		84BEB7B71D87A0950046FBF2 /* ProductShopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BEB7B51D87A0950046FBF2 /* ProductShopCollectionViewCell.xib */; };
+		84BEB7C21D87ABCC0046FBF2 /* BannerCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BEB7C01D87ABCC0046FBF2 /* BannerCollectionReusableView.m */; };
+		84BEB7C31D87ABCC0046FBF2 /* BannerCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BEB7C11D87ABCC0046FBF2 /* BannerCollectionReusableView.xib */; };
 		CE1B1F291D86EDCC00720BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1B1F281D86EDCC00720BAA /* main.m */; };
 		CE1B1F2C1D86EDCC00720BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1B1F2B1D86EDCC00720BAA /* AppDelegate.m */; };
 		CE1B1F2F1D86EDCC00720BAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1B1F2E1D86EDCC00720BAA /* ViewController.m */; };
@@ -39,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84BEB7B31D87A0950046FBF2 /* ProductShopCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductShopCollectionViewCell.h; sourceTree = "<group>"; };
+		84BEB7B41D87A0950046FBF2 /* ProductShopCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductShopCollectionViewCell.m; sourceTree = "<group>"; };
+		84BEB7B51D87A0950046FBF2 /* ProductShopCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductShopCollectionViewCell.xib; sourceTree = "<group>"; };
+		84BEB7BF1D87ABCC0046FBF2 /* BannerCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerCollectionReusableView.h; sourceTree = "<group>"; };
+		84BEB7C01D87ABCC0046FBF2 /* BannerCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerCollectionReusableView.m; sourceTree = "<group>"; };
+		84BEB7C11D87ABCC0046FBF2 /* BannerCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerCollectionReusableView.xib; sourceTree = "<group>"; };
 		CE1B1F241D86EDCB00720BAA /* LinkTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1B1F281D86EDCC00720BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE1B1F2A1D86EDCC00720BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -160,6 +170,12 @@
 				CE1B1F601D86F5F400720BAA /* ProductCategoryTableViewCell.h */,
 				CE1B1F611D86F5F400720BAA /* ProductCategoryTableViewCell.m */,
 				CE1B1F621D86F5F400720BAA /* ProductCategoryTableViewCell.xib */,
+				84BEB7B31D87A0950046FBF2 /* ProductShopCollectionViewCell.h */,
+				84BEB7B41D87A0950046FBF2 /* ProductShopCollectionViewCell.m */,
+				84BEB7B51D87A0950046FBF2 /* ProductShopCollectionViewCell.xib */,
+				84BEB7BF1D87ABCC0046FBF2 /* BannerCollectionReusableView.h */,
+				84BEB7C01D87ABCC0046FBF2 /* BannerCollectionReusableView.m */,
+				84BEB7C11D87ABCC0046FBF2 /* BannerCollectionReusableView.xib */,
 			);
 			path = LineTableView;
 			sourceTree = "<group>";
@@ -267,10 +283,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BEB7B71D87A0950046FBF2 /* ProductShopCollectionViewCell.xib in Resources */,
 				CE1B1F5F1D86EF1000720BAA /* ProductCateogoryViewController.xib in Resources */,
 				CE1B1F371D86EDCC00720BAA /* LaunchScreen.storyboard in Resources */,
 				CE1B1F341D86EDCC00720BAA /* Assets.xcassets in Resources */,
 				CE1B1F321D86EDCC00720BAA /* Main.storyboard in Resources */,
+				84BEB7C31D87ABCC0046FBF2 /* BannerCollectionReusableView.xib in Resources */,
 				CE1B1F641D86F5F400720BAA /* ProductCategoryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,9 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1B1F5E1D86EF1000720BAA /* ProductCateogoryViewController.m in Sources */,
+				84BEB7C21D87ABCC0046FBF2 /* BannerCollectionReusableView.m in Sources */,
 				CE1B1F631D86F5F400720BAA /* ProductCategoryTableViewCell.m in Sources */,
 				CE1B1F2F1D86EDCC00720BAA /* ViewController.m in Sources */,
 				CE1B1F2C1D86EDCC00720BAA /* AppDelegate.m in Sources */,
+				84BEB7B61D87A0950046FBF2 /* ProductShopCollectionViewCell.m in Sources */,
 				CE1B1F291D86EDCC00720BAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +546,7 @@
 				CE1B1F531D86EDCC00720BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE1B1F541D86EDCC00720BAA /* Build configuration list for PBXNativeTarget "LinkTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +555,7 @@
 				CE1B1F561D86EDCC00720BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE1B1F571D86EDCC00720BAA /* Build configuration list for PBXNativeTarget "LinkTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +564,7 @@
 				CE1B1F591D86EDCC00720BAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

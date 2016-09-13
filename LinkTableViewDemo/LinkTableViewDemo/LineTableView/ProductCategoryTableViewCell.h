@@ -10,4 +10,8 @@
 
 @interface ProductCategoryTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIView *productView;
+@property (weak, nonatomic) IBOutlet UIView *lineView;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+
 @end
